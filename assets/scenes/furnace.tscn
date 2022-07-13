@@ -28,8 +28,14 @@ animations = [ {
 } ]
 
 [node name="Furnace" type="Control"]
-margin_right = 192.0
-margin_bottom = 108.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -32.0
+margin_top = -32.0
+margin_right = 32.0
+margin_bottom = 32.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -44,6 +50,6 @@ __meta__ = {
 
 [node name="FireAnim" type="AnimatedSprite" parent="."]
 frames = SubResource( 5 )
-frame = 1
+frame = 3
 playing = true
 centered = false
